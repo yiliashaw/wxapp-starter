@@ -1,0 +1,9 @@
+{
+  "pages": ["pages/index/index"],
+  "window": {
+    "navigationBarBackgroundColor": "#0075ff",
+    "navigationBarTitleText": "wxapp-starter",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#0075FF"
+  }
+}
