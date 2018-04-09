@@ -1,0 +1,5 @@
+<view class="anchor-wrapper">
+  <!-- <anchor-card-header isAnchor="{{isAnchor}}" hasVideo="{{hasVideo}}"></anchor-card-header> -->
+  <!-- <button bindtap="changState">改变状态</button> -->
+  <index bind:updateData="onUpdateData"></index>
+</view>

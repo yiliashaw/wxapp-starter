@@ -1,52 +1,46 @@
 //index.js
-Page({
+const config = {
   data: {
-    text: 'This is page data.'
+
   },
-  onLoad: function(options) {
-    // Do some initialize when page load.
+  onLoad(options) {
+    console.log('index page onload');
+    this.setData({
+      now: +Date.now()
+    });
   },
-  onReady: function() {
-    // Do something when page ready.
-  },
-  onShow: function() {
+
+  onShow() {
+    console.log('index page onShow');
+    console.log('Page this', this.childrens);
     // Do something when page show.
   },
-  onHide: function() {
-    // Do something when page hide.
-  },
-  onUnload: function() {
-    // Do something when page close.
-  },
-  onPullDownRefresh: function() {
-    // Do something when pull down.
-  },
-  onReachBottom: function() {
-    // Do something when page reach bottom.
-  },
-  onShareAppMessage: function() {
-    // return custom share data when user share.
-  },
-  onPageScroll: function() {
-    // Do something when page scroll
-  },
-  onTabItemTap(item) {
-    console.log(item.index);
-    console.log(item.pagePath);
-    console.log(item.text);
-  },
+
   // Event handler.
-  viewTap: function() {
-    this.setData(
-      {
+
+  onUpdateData(e) {
+    console.log('update-data', e);
+  },
+
+  viewTap() {
+    this.setData({
         text: 'Set some data for updating view.'
       },
-      function() {
+      function () {
         // this is setData callback
       }
     );
   },
-  customData: {
-    hi: 'MINA'
-  }
-});
+
+  changState() {
+    const random = Math.random();
+    this.setData({
+      isAnchor: random > 0.5 ? 0 : 1,
+    });
+  },
+
+
+
+};
+
+Page(config);

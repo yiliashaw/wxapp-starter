@@ -1,0 +1,4 @@
+<view class="anchor-wrapper">
+  my page...
+  <anchor-card-header></anchor-card-header>
+</view>

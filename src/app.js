@@ -1,5 +1,6 @@
 App({
   onLaunch: function(options) {
+    console.log('App onLaunch...');
     // Do something initial when launch.
   },
   onShow: function(options) {

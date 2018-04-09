@@ -1,7 +1,7 @@
 {
   "navigationBarTitleText": "wxapp-starter",
   "usingComponents": {
-    "index": "../../components/index/index"
+    "anchor-card-header": "../../components/anchorCard/header/header"
   }
 
 }
