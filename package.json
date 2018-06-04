@@ -1,0 +1,42 @@
+{
+  "name": "twwd",
+  "version": "1.0.0",
+  "description": "twwd",
+  "main": "index.js",
+  "scripts": {
+    "clean": "gulp clean",
+    "dev": "cross-env NODE_ENV=development gulp dev",
+    "dev:beta": "cross-env NODE_ENV=experience gulp dev",
+    "beta": "cross-env NODE_ENV=experience gulp pub",
+    "build": "cross-env NODE_ENV=production gulp pub",
+    "add": "cross-env NODE_ENV=production gulp add-page --file",
+    "add:com": "cross-env NODE_ENV=production gulp add-com --file"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@code.inke.cn:wcdg/twwd.git"
+  },
+  "keywords": [
+    "twwd",
+    "wxapp"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-node-env-inline": "^0.4.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^5.1.6",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-changed": "^3.2.0",
+    "gulp-file": "^0.4.0",
+    "gulp-if": "^2.0.2",
+    "gulp-less": "^3.5.0",
+    "gulp-rename": "^1.2.3",
+    "gulp-uglify": "^3.0.0",
+    "yargs": "^11.0.0"
+  }
+}

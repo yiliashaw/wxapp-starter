@@ -1,5 +1,9 @@
-<view class="anchor-wrapper">
-  <!-- <anchor-card-header isAnchor="{{isAnchor}}" hasVideo="{{hasVideo}}"></anchor-card-header> -->
-  <!-- <button bindtap="changState">改变状态</button> -->
-  <index bind:updateData="onUpdateData"></index>
+<!--components/index/index.wxml-->
+<view class="index-wrap">
+
+  <view class="index-title red"> this is index page.234...</view>
+  <view class="index-desc red"> this is index page.234...</view>
+  <navigator url="/pages/login/login"> go login</navigator>
+  <navigator url="/pages/my/my"> go My</navigator>
+
 </view>

@@ -1,1 +1,1 @@
-export default delay => new Promise(resolve => { setTimeout(resolve, delay) });
+module.exports = delay => new Promise(resolve => { setTimeout(resolve, delay) });

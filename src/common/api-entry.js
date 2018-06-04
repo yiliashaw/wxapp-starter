@@ -1,5 +1,5 @@
-import Method from '../config/method';
-import Host from '../config/host';
+import Method from '../service/config/method';
+import Host from '../service/config/host';
 
 export default {
   sendFormId: {

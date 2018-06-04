@@ -9,8 +9,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.94",
-	"appid": "touristappid",
-	"projectname": "wxapp-starter",
+	"appid": "wx798b2427078b3592",
+	"projectname": "土味问答",
 	"condition": {
 		"search": {
 			"current": -1,

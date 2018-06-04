@@ -1,4 +1,1 @@
-<view class="anchor-wrapper">
-  my page...
-  <anchor-card-header></anchor-card-header>
-</view>
+<view class="my-wrap green"> this is my page</view>

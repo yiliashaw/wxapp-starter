@@ -1,6 +1,0 @@
-<!--components/counter/counter.wxml-->
-<view class="counter {{style}}">
-  <button bindtap="plus" size="mini"> + </button>
-  <button bindtap="minus" size="mini"> - </button>
-  <text class="count" :class="{red: num > 55, green: num < 45}"> {{num}} </text>
-</view>

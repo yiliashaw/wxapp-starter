@@ -1,1 +1,6 @@
-src/components/anchorCard/*
+node_modules/
+npm-debug.log*
+bin/
+dist/
+dist/*
+src/pages/demo/

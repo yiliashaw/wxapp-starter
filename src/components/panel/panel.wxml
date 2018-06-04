@@ -1,5 +1,0 @@
-<!--components/panel.wxml-->
-<view class="panel">
-  <slot name="title">title</slot>
-  <slot></slot>
-</view>

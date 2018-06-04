@@ -1,9 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "anchor-card-header": "../anchorCard/header/header",
-    "panel": "../panel/panel",
-    "counter-a": "../counter/counter",
-    "counter-b": "../counter/counter"
-  }
-}

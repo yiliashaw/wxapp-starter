@@ -1,4 +1,4 @@
-export default (fn, interval = 1000) => {
+module.exports = (fn, interval = 1000) => {
   let lastTime = null;
 
   return (...args) => {
